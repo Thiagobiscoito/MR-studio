@@ -203,7 +203,7 @@ main .container {
 }
 
 .casa .casa-texto p {
-    margin: 20px 0;
+    margin: 20px;
     color: var(--color-p);
 }
 
@@ -262,6 +262,53 @@ main .container {
     background-color: var(--orange);
     color: white;
     border: none;
+}
+
+/* SECTION NEWSLETTER */
+
+.newsletter{
+    background-color: var(--verde);
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.newsletter .box-newsletter {
+    text-align: center;
+    padding: 100px;
+    background-image: url(../img/background-newsletter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+.newsletter .box-newsletter h2{
+    font-size: 2.5rem;
+}
+
+.newsletter .box-newsletter p{
+    margin-top: 13px 0;
+}
+
+.newsletter .box-newsletter input{
+    width: 35%;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    color: #00000098;
+    background-color: #faefda;
+}
+
+.newsletter .box-newsletter button{
+    font-size: 15px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 14px;
+    color: white;
+    background-color: var(--verde);
+    cursor: pointer;
 }
 
 /* RESPONSIVO  MENOR QUE 960PX*/
@@ -350,6 +397,24 @@ main .container {
     .melhores-lugares .cards .card-item {
         width: 100%;
         margin-top: 50px;
+    }
+
+    .newsletter .box-newsletter{
+        padding: 50px;
+    }
+
+    .newsletter .box-newsletter h2 {
+        font-size: 2.rem;
+    }
+
+    .newsletter .box-newsletter input {
+        width: 90%;
+        margin-top: 15px;
+    }
+
+    .newsletter .box-newsletter button {
+        width: 50%;
+        margin-top: 15px;
     }
 
 }
